@@ -1,0 +1,68 @@
+train methord: normal
+training time: 105.1816291809082
+             precision    recall  f1-score   support
+
+      anger       0.36      0.20      0.26       547
+    disgust       0.30      0.16      0.21       919
+       fear       0.60      0.03      0.07        86
+  happiness       0.39      0.30      0.34       833
+       like       0.45      0.28      0.35      1232
+       none       0.73      0.89      0.80      8982
+    sadness       0.35      0.21      0.26       774
+   surprise       0.25      0.04      0.07       226
+
+avg / total       0.61      0.66      0.62     13599
+
+
+
+train methord: fgsm
+training time: 463.2534465789795
+             precision    recall  f1-score   support
+
+      anger       0.51      0.15      0.24       547
+    disgust       0.35      0.14      0.20       919
+       fear       0.57      0.05      0.09        86
+  happiness       0.50      0.26      0.34       833
+       like       0.48      0.28      0.36      1232
+       none       0.72      0.93      0.82      8982
+    sadness       0.50      0.19      0.28       774
+   surprise       0.50      0.04      0.07       226
+
+avg / total       0.64      0.69      0.63     13599
+
+
+
+train methord: pgd
+training time: 841.4437537193298
+             precision    recall  f1-score   support
+
+      anger       0.33      0.05      0.09       547
+    disgust       0.28      0.09      0.14       919
+       fear       0.00      0.00      0.00        86
+  happiness       0.38      0.14      0.20       833
+       like       0.33      0.11      0.17      1232
+       none       0.69      0.94      0.79      8982
+    sadness       0.34      0.07      0.11       774
+   surprise       0.12      0.01      0.02       226
+
+avg / total       0.56      0.65      0.57     13599
+
+
+
+train methord: freeLB
+training time: 262.95174527168274
+             precision    recall  f1-score   support
+
+      anger       0.36      0.21      0.27       547
+    disgust       0.30      0.15      0.20       919
+       fear       0.38      0.07      0.12        86
+  happiness       0.44      0.25      0.32       833
+       like       0.40      0.29      0.34      1232
+       none       0.74      0.87      0.80      8982
+    sadness       0.31      0.26      0.28       774
+   surprise       0.11      0.04      0.06       226
+
+avg / total       0.61      0.65      0.62     13599
+
+
+

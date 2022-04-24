@@ -1,0 +1,2 @@
+model_checkpoint_path: "freeLB"
+all_model_checkpoint_paths: "freeLB"
